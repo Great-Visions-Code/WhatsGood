@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5F1FC5F52C656F000085056C /* WhatsGoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FC5F42C656F000085056C /* WhatsGoodApp.swift */; };
-		5F1FC5F72C656F000085056C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FC5F62C656F000085056C /* ContentView.swift */; };
+		5F1FC5F72C656F000085056C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FC5F62C656F000085056C /* WelcomeView.swift */; };
 		5F1FC5F92C656F010085056C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FC5F82C656F010085056C /* Assets.xcassets */; };
 		5F1FC5FC2C656F010085056C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FC5FB2C656F010085056C /* Preview Assets.xcassets */; };
+		5F64A0D32C6AC2DB008B8A52 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64A0D22C6AC2DB008B8A52 /* UserView.swift */; };
+		5FD2DE0D2C6ACF8E00C12D38 /* UserRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD2DE0C2C6ACF8E00C12D38 /* UserRegistrationView.swift */; };
+		5FD2DE0F2C6AD72200C12D38 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD2DE0E2C6AD72200C12D38 /* AnimatedBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F1FC5F12C656F000085056C /* WhatsGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1FC5F42C656F000085056C /* WhatsGoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsGoodApp.swift; sourceTree = "<group>"; };
-		5F1FC5F62C656F000085056C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F1FC5F62C656F000085056C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		5F1FC5F82C656F010085056C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1FC5FB2C656F010085056C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F64A0D22C6AC2DB008B8A52 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		5FD2DE0C2C6ACF8E00C12D38 /* UserRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationView.swift; sourceTree = "<group>"; };
+		5FD2DE0E2C6AD72200C12D38 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +57,9 @@
 		5F1FC5F32C656F000085056C /* WhatsGood */ = {
 			isa = PBXGroup;
 			children = (
-				5F1FC5F42C656F000085056C /* WhatsGoodApp.swift */,
-				5F1FC5F62C656F000085056C /* ContentView.swift */,
+				5F64A0D42C6ACE05008B8A52 /* Views */,
 				5F1FC5F82C656F010085056C /* Assets.xcassets */,
+				5F1FC5F42C656F000085056C /* WhatsGoodApp.swift */,
 				5F1FC5FA2C656F010085056C /* Preview Content */,
 			);
 			path = WhatsGood;
@@ -65,6 +71,17 @@
 				5F1FC5FB2C656F010085056C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F64A0D42C6ACE05008B8A52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FC5F62C656F000085056C /* WelcomeView.swift */,
+				5F64A0D22C6AC2DB008B8A52 /* UserView.swift */,
+				5FD2DE0C2C6ACF8E00C12D38 /* UserRegistrationView.swift */,
+				5FD2DE0E2C6AD72200C12D38 /* AnimatedBackground.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1FC5F72C656F000085056C /* ContentView.swift in Sources */,
+				5F1FC5F72C656F000085056C /* WelcomeView.swift in Sources */,
+				5F64A0D32C6AC2DB008B8A52 /* UserView.swift in Sources */,
+				5FD2DE0F2C6AD72200C12D38 /* AnimatedBackground.swift in Sources */,
+				5FD2DE0D2C6ACF8E00C12D38 /* UserRegistrationView.swift in Sources */,
 				5F1FC5F52C656F000085056C /* WhatsGoodApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
